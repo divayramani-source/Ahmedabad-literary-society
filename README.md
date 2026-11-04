@@ -35,5 +35,17 @@ Join, Literary Journal submission, ALS Juniors, Collaborate, and Contact forms a
 
 If you'd rather use a different service later (Formspree, Getform, a Google Form), just say so and I'll swap the `action` URLs.
 
+## Homepage title sequence
+The hero holds a 15-second motion graphics piece (`assets/js/hero-reel.js`). Nothing to install, no video file — it is drawn live in the browser, so it stays sharp at any size and adds no download weight beyond one small script.
+
+The sequence: ink falls → an open book draws itself → a tree grows from the spine, leaf by leaf → Hindi and Latin glyphs lift off the page → the artwork moves aside and the headline resolves → a real ALS photograph surfaces behind the lockup.
+
+- Plays once when the hero scrolls into view, then rests on the final frame.
+- **Replay** button re-runs it.
+- Honours "reduce motion" accessibility settings: those visitors get the finished frame, no animation.
+- The leaves are generated in code from the branch curves, so the canopy differs slightly on every replay.
+
+To swap the photograph that appears at the end, change the `reel-photo` image path in `index.html`.
+
 ## Fonts
 Fraunces (serif, headings) + Inter (sans, body) via Google Fonts — matches the black/charcoal editorial look.

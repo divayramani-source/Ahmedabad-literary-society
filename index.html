@@ -7,6 +7,7 @@
 <meta name="description" content="Ahmedabad Literary Society is an independent literary community bringing together readers, writers, poets and thinkers through book discussions, poetry gatherings and author conversations in Ahmedabad.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.className+=" js";</script>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -40,20 +41,46 @@
     </div>
   </div>
   <div class="wrap">
-    <div class="hero-media"><img src="assets/img/gallery/gallery-13.jpg" alt="Ahmedabad Literary Society members at a gathering"></div>
+    <div class="reel" id="als-reel" role="img"
+         aria-label="Title sequence: a tree grows from an open book, resolving into the words Where Literature Finds Its People.">
+      <img class="reel-photo" src="assets/img/gallery/gallery-15.jpg" alt="">
+      <div class="reel-scrim" aria-hidden="true"></div>
+      <canvas class="reel-canvas" aria-hidden="true"></canvas>
+      <div class="reel-stage">
+        <svg class="reel-svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+          <g id="reel-ink">
+            <path id="reel-seedline" d="M200,44 L200,258"></path>
+            <circle id="reel-seeddot" cx="200" cy="44" r="3.2"></circle>
+          </g>
+          <g id="reel-book"></g>
+          <g id="reel-tree"></g>
+          <g id="reel-leaves"></g>
+        </svg>
+      </div>
+      <div class="reel-type">
+        <div class="reel-kicker">Ahmedabad Literary Society</div>
+        <div class="reel-line"><span class="reel-word">Where</span> <span class="reel-word">Literature</span> <span class="reel-word">Finds</span> <span class="reel-word">Its</span> <span class="reel-word">People.</span></div>
+        <div class="reel-sub">Read. Reflect. Express. Belong.</div>
+      </div>
+      <div class="reel-sweep" aria-hidden="true"></div>
+      <div class="reel-grain" aria-hidden="true"></div>
+      <div class="reel-vignette" aria-hidden="true"></div>
+      <button class="reel-replay" type="button">Replay</button>
+    </div>
   </div>
 </section>
 
 <section>
   <div class="wrap">
-    <span class="eyebrow">Who We Are</span>
-    <h2>Not Just a Book Club. A Literary Community.</h2>
-    <p class="max-w-text">Ahmedabad Literary Society is an independent literary community dedicated to bringing literature closer to people. What began as a shared love for books has grown into a space where readers meet writers, poetry finds an audience, ideas are discussed, and stories become conversations.</p>
-    <p class="max-w-text">We believe literature should not remain confined to bookshelves, academic institutions, or literary festivals. It should be part of everyday life. At ALS, every reader has a place, every thoughtful question matters, and every voice deserves to be heard.</p>
+    <span class="eyebrow rv">Who We Are</span>
+    <h2 class="rv rv-d1">Not Just a Book Club. A Literary Community.</h2>
+    <div class="rule"></div>
+    <p class="max-w-text rv rv-d2" style="margin-top:28px;">Ahmedabad Literary Society is an independent literary community dedicated to bringing literature closer to people. What began as a shared love for books has grown into a space where readers meet writers, poetry finds an audience, ideas are discussed, and stories become conversations.</p>
+    <p class="max-w-text rv rv-d3">We believe literature should not remain confined to bookshelves, academic institutions, or literary festivals. It should be part of everyday life. At ALS, every reader has a place, every thoughtful question matters, and every voice deserves to be heard.</p>
     <div class="stats">
-      <div><div class="stat-num">300+</div><div class="stat-label">Community Members</div></div>
-      <div><div class="stat-num">2025</div><div class="stat-label">Year Established</div></div>
-      <div><div class="stat-num">All Ages</div><div class="stat-label">Readers &amp; Writers</div></div>
+      <div class="rv rv-d1"><div class="stat-num" data-count="300" data-suffix="+">0+</div><div class="stat-label">Community Members</div></div>
+      <div class="rv rv-d2"><div class="stat-num" data-count="2025" data-from="2015">2015</div><div class="stat-label">Year Established</div></div>
+      <div class="rv rv-d3"><div class="stat-num">All Ages</div><div class="stat-label">Readers &amp; Writers</div></div>
     </div>
   </div>
 </section>
@@ -62,29 +89,29 @@
   <div class="wrap">
     <div class="section-head">
       <div>
-        <span class="eyebrow">What Happens at ALS</span>
-        <h2>Gatherings for Every Kind of Reader</h2>
+        <span class="eyebrow rv">What Happens at ALS</span>
+        <h2 class="rv rv-d1">Gatherings for Every Kind of Reader</h2>
       </div>
     </div>
   </div>
   <div class="wrap">
     <div class="grid grid-4">
-      <div class="card">
+      <div class="card rv rv-d1">
         <span class="num">01</span>
         <h3>Book Discussions</h3>
         <p>We read, question, interpret and discover new perspectives together.</p>
       </div>
-      <div class="card">
+      <div class="card rv rv-d2">
         <span class="num">02</span>
         <h3>Poetry Gatherings</h3>
         <p>A space for poetry in Hindi, English, Gujarati, Urdu and other languages.</p>
       </div>
-      <div class="card">
+      <div class="card rv rv-d3">
         <span class="num">03</span>
         <h3>Meet the Author</h3>
         <p>Conversations that take readers beyond the pages and into the author's world.</p>
       </div>
-      <div class="card">
+      <div class="card rv rv-d4">
         <span class="num">04</span>
         <h3>ALS Juniors</h3>
         <p>Introducing young minds to stories, imagination and the pleasure of reading.</p>
@@ -97,13 +124,13 @@
   <div class="wrap">
     <div class="section-head">
       <div>
-        <span class="eyebrow">Upcoming Events</span>
-        <h2>Coming Together for Literature</h2>
+        <span class="eyebrow rv">Upcoming Events</span>
+        <h2 class="rv rv-d1">Coming Together for Literature</h2>
         <p class="max-w-text">There is always another book to discuss, another writer to meet, and another story waiting to be heard.</p>
       </div>
       <a href="events.html" class="btn">View All Events</a>
     </div>
-    <div class="empty-note">Our next literary gathering is taking shape. Stay connected for announcements.</div>
+    <div class="empty-note rv">Our next literary gathering is taking shape. Stay connected for announcements.</div>
   </div>
 </section>
 
@@ -111,8 +138,8 @@
   <div class="wrap">
     <div class="section-head">
       <div>
-        <span class="eyebrow">From Our Literary Journal</span>
-        <h2>Words Worth Sharing</h2>
+        <span class="eyebrow rv">From Our Literary Journal</span>
+        <h2 class="rv rv-d1">Words Worth Sharing</h2>
         <p class="max-w-text">Literature continues long after an event ends — poems, essays, reflections, interviews and reviews from our community.</p>
       </div>
       <a href="journal.html" class="btn">Read the Journal</a>
@@ -120,19 +147,19 @@
   </div>
   <div class="wrap">
     <div class="grid grid-3">
-      <div class="journal-card">
+      <div class="journal-card rv rv-d1">
         <span class="journal-cat">Poetry</span>
         <h3>Title to be added</h3>
         <span class="journal-meta">By Contributor Name · Month 2026</span>
         <span class="read-link">Read More</span>
       </div>
-      <div class="journal-card">
+      <div class="journal-card rv rv-d2">
         <span class="journal-cat">Essay</span>
         <h3>Title to be added</h3>
         <span class="journal-meta">By Contributor Name · Month 2026</span>
         <span class="read-link">Read More</span>
       </div>
-      <div class="journal-card">
+      <div class="journal-card rv rv-d3">
         <span class="journal-cat">Book Review</span>
         <h3>Title to be added</h3>
         <span class="journal-meta">By Contributor Name · Month 2026</span>
@@ -144,10 +171,10 @@
 
 <div class="cta-band">
   <div class="wrap">
-    <span class="eyebrow">Become Part of the Conversation</span>
-    <h2>Some Conversations Stay With Us Long After They End.</h2>
-    <p class="lede">If books have ever made you question, imagine, disagree, or understand the world a little differently, you belong in a community like ours.</p>
-    <div class="cta-actions">
+    <span class="eyebrow rv">Become Part of the Conversation</span>
+    <h2 class="rv rv-d1">Some Conversations Stay With Us Long After They End.</h2>
+    <p class="lede rv rv-d2">If books have ever made you question, imagine, disagree, or understand the world a little differently, you belong in a community like ours.</p>
+    <div class="cta-actions rv rv-d3">
       <a href="join.html" class="btn btn-solid">Join Ahmedabad Literary Society</a>
     </div>
   </div>
@@ -197,5 +224,6 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/hero-reel.js"></script>
 </body>
 </html>
